@@ -1,0 +1,40 @@
+2024-02-24T10:01:02.456+01:00  INFO 16916 --- [main] tn.esprit.tpfoyer.TpFoyerApplication     : Starting TpFoyerApplication using Java 17.0.8 with PID 16916 (C:\Work\workspace-intellij\tp-foyer\target\classes started by Mourad HASSINI in C:\Work\workspace-intellij\tp-foyer)
+2024-02-24T10:01:02.459+01:00  INFO 16916 --- [main] tn.esprit.tpfoyer.TpFoyerApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-02-24T10:01:03.765+01:00  INFO 16916 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-24T10:01:03.931+01:00  INFO 16916 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 146 ms. Found 6 JPA repository interfaces.
+2024-02-24T10:01:05.125+01:00  INFO 16916 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8089 (http)
+2024-02-24T10:01:05.136+01:00  INFO 16916 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-24T10:01:05.137+01:00  INFO 16916 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2024-02-24T10:01:05.227+01:00  INFO 16916 --- [main] o.a.c.c.C.[.[localhost].[/tpfoyer]       : Initializing Spring embedded WebApplicationContext
+2024-02-24T10:01:05.227+01:00  INFO 16916 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2702 ms
+2024-02-24T10:01:05.416+01:00  INFO 16916 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-02-24T10:01:05.463+01:00  INFO 16916 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.13.Final
+2024-02-24T10:01:05.465+01:00  INFO 16916 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2024-02-24T10:01:05.677+01:00  INFO 16916 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-02-24T10:01:05.698+01:00  INFO 16916 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-02-24T10:01:05.813+01:00  INFO 16916 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@8ac12e6
+2024-02-24T10:01:05.815+01:00  INFO 16916 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-02-24T10:01:05.860+01:00  WARN 16916 --- [main] org.hibernate.dialect.Dialect            : HHH000511: The 5.6.17 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 5.7.0. Check the community dialects project for available legacy versions.
+2024-02-24T10:01:06.736+01:00  INFO 16916 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-02-24T10:01:06.835+01:00  INFO 16916 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-24T10:01:07.412+01:00  INFO 16916 --- [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-02-24T10:01:08.238+01:00  WARN 16916 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-02-24T10:01:09.687+01:00  INFO 16916 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8089 (http) with context path '/tpfoyer'
+2024-02-24T10:01:09.699+01:00  INFO 16916 --- [main] tn.esprit.tpfoyer.TpFoyerApplication     : Started TpFoyerApplication in 7.843 seconds (process running for 8.689)
+2024-02-24T10:01:15.010+01:00  INFO 16916 --- [scheduling-1] tn.esprit.tpfoyer.config.CnfigAOP        : In method tttt retrieveAllBlocs : 
+2024-02-24T10:01:15.011+01:00  INFO 16916 --- [scheduling-1] t.e.tpfoyer.service.BlocServiceImpl      : In Method retrieveAllBlocs : 
+2024-02-24T10:01:15.123+01:00  INFO 16916 --- [scheduling-1] t.e.tpfoyer.service.BlocServiceImpl      : taille totale : 1
+2024-02-24T10:01:15.125+01:00  INFO 16916 --- [scheduling-1] t.e.tpfoyer.service.BlocServiceImpl      : Bloc : Bloc(idBloc=1, nomBloc=1, capaciteBloc=1, foyer=null, chambres=[])
+2024-02-24T10:01:15.126+01:00  INFO 16916 --- [scheduling-1] t.e.tpfoyer.service.BlocServiceImpl      : Out of Method retrieveAllBlocs : 
+2024-02-24T10:01:15.126+01:00  INFO 16916 --- [scheduling-1] tn.esprit.tpfoyer.config.CnfigAOP        : Out method tttt retrieveAllBlocs : 
+2024-02-24T10:01:15.126+01:00  INFO 16916 --- [scheduling-1] tn.esprit.tpfoyer.config.CnfigAOP        : Methodexecutiontime: 117 milliseconds.
+2024-02-24T10:02:15.008+01:00  INFO 16916 --- [scheduling-1] tn.esprit.tpfoyer.config.CnfigAOP        : In method tttt retrieveAllBlocs : 
+2024-02-24T10:02:15.008+01:00  INFO 16916 --- [scheduling-1] t.e.tpfoyer.service.BlocServiceImpl      : In Method retrieveAllBlocs : 
+2024-02-24T10:02:15.016+01:00  INFO 16916 --- [scheduling-1] t.e.tpfoyer.service.BlocServiceImpl      : taille totale : 1
+2024-02-24T10:02:15.017+01:00  INFO 16916 --- [scheduling-1] t.e.tpfoyer.service.BlocServiceImpl      : Bloc : Bloc(idBloc=1, nomBloc=1, capaciteBloc=1, foyer=null, chambres=[])
+2024-02-24T10:02:15.017+01:00  INFO 16916 --- [scheduling-1] t.e.tpfoyer.service.BlocServiceImpl      : Out of Method retrieveAllBlocs : 
+2024-02-24T10:02:15.018+01:00  INFO 16916 --- [scheduling-1] tn.esprit.tpfoyer.config.CnfigAOP        : Out method tttt retrieveAllBlocs : 
+2024-02-24T10:02:15.018+01:00  INFO 16916 --- [scheduling-1] tn.esprit.tpfoyer.config.CnfigAOP        : Methodexecutiontime: 10 milliseconds.
+2024-02-24T10:02:50.688+01:00  INFO 16916 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-02-24T10:02:50.694+01:00  INFO 16916 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-02-24T10:02:50.707+01:00  INFO 16916 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
